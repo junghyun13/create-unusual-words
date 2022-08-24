@@ -21,7 +21,7 @@ char* solution(const char* s) {
             answer[i] = toupper(answer[i]);
         else
             answer[i] = tolower(answer[i]);
-        isodd = !isodd;
+        isodd = !isodd; //한번 문자를 바꿔줄때마다 True는 False로 False는 True로!
         }
     return answer;}
 int main(void){
